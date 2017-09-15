@@ -47,7 +47,7 @@ object MainKotlin {
                 /*
                  * Pengambilan dataset pertama yang memiliki target yang diinginkan
                  */
-                for (i in 0..attributesLength - 1) {
+                for (i in 0 until attributesLength - 1) {
                     if (attributes[i][instanceLength] == target) {
                         attributeFirstIndex = i
                         break
@@ -62,9 +62,9 @@ object MainKotlin {
                 /*
                  * Proses membuat instance yang berbeda disetiap dataset mejadi '?'
                  */
-                for (i in 1..attributesLength - 1) {
+                for (i in 1 until attributesLength - 1) {
                     if (attributes[i][instanceLength] == target) {
-                        for (j in 0..instanceLength - 1) {
+                        for (j in 0 until instanceLength - 1) {
                             if (hypotesis[j] != attributes[i][j])
                                 hypotesis[j] = "?"
                         }
