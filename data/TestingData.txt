@@ -1,0 +1,3 @@
+Sunny Warm Normal Strong Warm Same
+Sunny Warm Normal Weak Warm Change
+Cloudy Warm High Strong Warm Same
